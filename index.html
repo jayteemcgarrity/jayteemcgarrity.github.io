@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name</title>
+  <meta name="description" content="Contact + portfolio links." />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; }
+    .wrap { max-width: 720px; padding: 48px 20px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: 40px; letter-spacing: -0.02em; }
+    p { line-height: 1.6; font-size: 18px; margin: 10px 0; }
+    .links a { display: inline-block; margin: 10px 14px 0 0; }
+    .card { margin-top: 22px; padding: 18px; border: 1px solid #e6e6e6; border-radius: 14px; }
+    .small { color: #666; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Your Name</h1>
+    <p class="small">Educator • Clinician • Writer</p>
+
+    <div class="card">
+      <p>Short intro. What you do, what you’re working on, and what people can reach out about.</p>
+      <p><strong>Contact:</strong> <a href="mailto:you@example.com">you@example.com</a></p>
+    </div>
+
+    <div class="links">
+      <a href="https://linkedin.com/in/yourname">LinkedIn</a>
+      <a href="https://your-portfolio-link.com">Portfolio</a>
+      <a href="https://your-writing-link.com">Writing</a>
+    </div>
+
+    <p class="small" style="margin-top:36px;">© <span id="y"></span> Your Name</p>
+  </div>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
