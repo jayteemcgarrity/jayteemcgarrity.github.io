@@ -1,0 +1,10 @@
+title: Jonathan McGarrity
+description: Personal site + writing
+url: "https://jonathanmcgarrity.com"
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - about.md
